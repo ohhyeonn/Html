@@ -1,0 +1,53 @@
+            
+            .title{
+
+                color :aquamarine;
+
+            }
+
+            .header{
+
+                color :blue;
+            }
+
+
+            .header-first{
+                color:blueviolet;
+            }
+
+            .heder-second {
+                color:blueviolet;
+            }
+
+            .header-third{
+                color:blueviolet;
+            }
+
+            .main{
+                color : blue;
+            }
+
+            .footer {
+                color: blue;
+            }
+
+
+
+            #header{
+                height: 70px;
+                background-color: blue;
+                overflow:hidden;
+            }
+
+            #main{
+                min-height: 300px;
+                background-color: red;  
+                overflow:hidden;
+       
+            }
+
+            #footer{
+                height:100px;
+                background-color:blueviolet;
+                overflow:hidden;
+            }
