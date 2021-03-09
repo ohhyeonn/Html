@@ -3,7 +3,34 @@
     height: 70px;
     background-color: blue;
     overflow:hidden;
+
+
+    display: flex;
+    
 }
+    /* header .content-float {
+
+        width: 960px;
+        height: 100%;
+        background-color: cornflowerblue;
+        min-height: inherit;
+        margin-left: auto;
+        margin-right: auto;
+
+    } */
+    header>div{
+        background-color: grey;
+        flex-basis: 152px;
+
+
+    }
+
+    header>.content-float{
+        background-color: hotpink;
+        flex-basis: 960px;
+        flex-shrink: 0;
+
+    }
 
 #body{
     min-height: 300px;
@@ -35,13 +62,3 @@
     overflow:hidden;
 }
 
-header .content-float {
-
-    width: 960px;
-    height: 100%;
-    background-color: cornflowerblue;
-    min-height: inherit;
-    margin-left: auto;
-    margin-right: auto;
-
-}
