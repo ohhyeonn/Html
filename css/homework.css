@@ -49,7 +49,7 @@
         
     }
 
-    #body>#aside{
+    #body>#aside {
         background-color: darkgreen;
         height: 300px;
         width:560px;
@@ -62,3 +62,74 @@
     overflow:hidden;
 }
 
+
+
+
+.homework-big-container{
+    height: 400px;
+    width:400px;
+    
+    
+    flex-wrap: wrap;
+    display:flex;
+    background-color: darkslategray;
+    align-content: center;
+
+}
+
+    .homework-small-container1{
+        flex-basis: 200px;
+        height: 200px;
+        display: flex;
+        background-color: darkseagreen;
+        
+       
+    }
+        .item1{
+            background-color: crimson;
+            flex-basis: 100px;
+            height: 100px;
+            
+        }
+    .homework-small-container2{
+        flex-basis: 200px;
+        height: 200px;
+        align-items: center;
+        display: flex;
+        background-color: dodgerblue;
+
+    }
+        .item2{
+            background-color: darkgoldenrod; 
+            width: 100px;
+            height: 100px;  
+        }
+    .homework-small-container3{
+        
+        flex-basis: 200px;
+        height: 200px;
+        display: flex;
+        background-color: greenyellow;
+        align-items: flex-end;
+
+
+    }
+        .item3{
+            background-color: darkgreen; 
+            flex-basis: 100px;
+            height: 100px;   
+        }
+    .homework-small-container4{
+
+        flex-basis: 200px;
+        height: 200px;
+        display: flex;
+        
+        background-color: indianred;
+    }
+        .item4{
+            background-color: darkslateblue;
+            flex-basis: 100px;
+            
+        }
+    
