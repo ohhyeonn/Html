@@ -19,14 +19,20 @@
 
     } */
     header>div{
-        background-color: grey;
+        background-color:white;
         flex-basis: 152px;
 
 
+
+    }
+    .twitch-icon{
+        background:white url(../images/twitch.png) no-repeat;
+        background-size: contain;
     }
 
     header>.content-float{
-        background-color: hotpink;
+        background-color: #747d8c;
+
         flex-basis: 960px;
         flex-shrink: 0;
 
@@ -34,7 +40,7 @@
 
 #body{
     min-height: 300px;
-    background-color: red;  
+    background-color: #a4b0be;  
 
     
     display:flex;
@@ -43,14 +49,14 @@
 
     #body>#main {
         height: 300px;
-        background-color: darkmagenta;
+        background-color: #ff4757;
         width:400px;
         margin-left: 152px;
         
     }
 
     #body>#aside {
-        background-color: darkgreen;
+        background-color: #ff6b81;
         height: 300px;
         width:560px;
 
@@ -58,7 +64,7 @@
 
 #footer{
     height:100px;
-    background-color:blueviolet;
+    background-color:#dfe4ea;
     overflow:hidden;
 }
 
@@ -72,8 +78,8 @@
     
     flex-wrap: wrap;
     display:flex;
-    background-color: darkslategray;
-    align-content: center;
+    background-color: #2f3542;
+ 
 
 }
 
@@ -81,12 +87,12 @@
         flex-basis: 200px;
         height: 200px;
         display: flex;
-        background-color: darkseagreen;
+        background-color: #dfe4ea;
         
        
     }
         .item1{
-            background-color: crimson;
+            background-color: #57606f;
             flex-basis: 100px;
             height: 100px;
             
@@ -94,13 +100,13 @@
     .homework-small-container2{
         flex-basis: 200px;
         height: 200px;
-        align-items: center;
         display: flex;
-        background-color: dodgerblue;
+        align-items: center;
+        background-color: #ced6e0;
 
     }
         .item2{
-            background-color: darkgoldenrod; 
+            background-color: #f1f2f6; 
             width: 100px;
             height: 100px;  
         }
@@ -109,13 +115,13 @@
         flex-basis: 200px;
         height: 200px;
         display: flex;
-        background-color: greenyellow;
+        background-color: #dfe4ea;
         align-items: flex-end;
 
 
     }
         .item3{
-            background-color: darkgreen; 
+            background-color: #5352ed; 
             flex-basis: 100px;
             height: 100px;   
         }
@@ -125,10 +131,10 @@
         height: 200px;
         display: flex;
         
-        background-color: indianred;
+        background-color: #3742fa;
     }
         .item4{
-            background-color: darkslateblue;
+            background-color: #ffffff;
             flex-basis: 100px;
             
         }

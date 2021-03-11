@@ -1,9 +1,9 @@
 html{
-
+    height: 100%;
 }
 
 body {
-
+    height:100%;
     margin : 0;
 }
 
@@ -16,7 +16,7 @@ body {
 
 
 #header {
-    background-color: yellow;
+    background-color:white;
     height: 70px;
     
 }
@@ -25,45 +25,60 @@ body {
 
 
 #visual{
-    background-color: red;
+    background-color: #313131;
     height: 171px;
-
+    border-top:3px solid #8CBA34;
+    background: #313131 url("../images/bg-visual.png") no-repeat center center;
 }
 
 
 #body{
-    background-color: green;
-    min-height:300px;
+    /* background-color: white; */
+    border-top:5px solid #8CBA34;
+    margin-top:1px;
+    flex-grow:1;
+    display: flex;
 }
 
-    .wow>#aside{
-        background-color:yellow;
+#body>.how{
+    display: flex;
+    flex-grow:1;
+    justify-content: center;
+}
 
+    .how>#aside{
+        /* background-color:yellow; */
+        
+        flex-basis: 360px;
     }
 
-    main{
-        background-color: blue;
-
+    .how>main{
+        /* background-color: blue; */
+        flex-basis: 600px;
     }
 
 
-    #body>.wow{
-
-        display: flex;
-    }
 
 #footer{
-    background-color:blue;
-    height: 100px;
+    background-color:#313131;
+    height: 50px;
+    
 }
 
 
 .wow{
-    background-color: blueviolet;
+    --background-color: blueviolet;
     width: 960px;
     min-height: inherit;
     margin-left: auto;
     margin-right: auto;
     height: 100%;
     opacity:0.7;
+}
+
+
+
+#bbody{
+    display:flex;
+    flex-direction: column;
 }
