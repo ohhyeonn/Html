@@ -1,11 +1,21 @@
 
+html{
+    margin : 0px;
+}
+body{
+    margin:0px;
+}
+
 #header{
-    height: 70px;
-    background-color: blue;
-    overflow:hidden;
-
-
+    background-color: white;
     display: flex;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    
+
+
+
     
 }
     /* header .content-float {
@@ -18,21 +28,28 @@
         margin-right: auto;
 
     } */
-    header>div{
+    #header>.div-wow{
         background-color:white;
-        flex-basis: 152px;
+        flex-basis: 159px;
+        
+        flex-grow: 1;
 
+        
+        
 
 
     }
-    .twitch-icon{
-        background:white url(../images/twitch.png) no-repeat;
-        background-size: contain;
+    #header>.twitch-icon{
+        background-color: white;
+        background: url(../images/twitch.png) no-repeat;
+        
+        flex-basis: 159px;
+        flex-grow: 1;
     }
 
-    header>.content-float{
+    #header>.content-float{
         background-color: #747d8c;
-
+        height: 70px;
         flex-basis: 960px;
         flex-shrink: 0;
 
@@ -44,21 +61,34 @@
 
     
     display:flex;
+    
 
 }
+    #body .sticker{
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        position: sticky;
+        top : 100px;
 
+    }
+    #body>div{
+        flex-basis: 159px;
+
+    }
     #body>#main {
-        height: 300px;
         background-color: #ff4757;
         width:400px;
-        margin-left: 152px;
+        flex-shrink: 0;
+      
         
     }
 
     #body>#aside {
         background-color: #ff6b81;
-        height: 300px;
         width:560px;
+        flex-shrink: 0;
+
 
     }
 
