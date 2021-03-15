@@ -1,0 +1,112 @@
+
+html{
+    margin : 0px;
+}
+
+
+#grid-container{
+    height:5000px;
+    margin:0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-rows: repeat(auto-fill, 100px);
+}
+
+
+
+#header {
+    
+    background-color:gray;
+
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 2;    
+
+
+    
+}
+
+    .div-wow{
+
+        background-color:royalblue;
+
+        grid-column-start: 12;
+        grid-column-end: 13;
+        grid-row-start: 1;
+        grid-row-end: 2;    
+        
+        
+
+
+    }
+    .twitch-icon{
+        background-color:white;
+        background: url(../images/twitch.png) no-repeat;
+
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;    
+
+    }
+
+    #header>.content-float{
+]
+    }
+
+
+
+
+
+
+
+
+#body{
+    background-color:orange;
+
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 7;    
+
+
+}
+.sticker{
+    background-color: violet;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 7;  
+
+
+    }
+.left-main{
+    background-color:turquoise;
+
+    grid-column-start: 12;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 7;  
+    }
+
+
+
+
+
+#footer{
+    background-color:rebeccapurple;
+
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 7;
+    grid-row-end: 8;    
+
+}
+
+
+
+
+
+

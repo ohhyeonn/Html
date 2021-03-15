@@ -1,0 +1,39 @@
+ #container{
+     background-color: gray;
+     display:grid;
+     grid-template-columns: repeat(auto-fit,50px);
+     grid-template-rows: 100px 100px 100px 100px;
+     
+ }
+    #container>div{
+        
+    }
+
+    #container>div.box1{
+        background-color: greenyellow;  
+        grid-column-start:2;
+        grid-row-start: 1;
+        
+        grid-column-end:5;
+        grid-row-end: 4;
+
+    }
+
+    #container>div.box2{
+        background-color: green;    
+        
+    }
+
+    #container>div.box3{
+        background-color: yellow;  
+
+    }
+
+    #container>div.box4{
+        background-color: red;  
+    }
+
+    #container>div.box5{
+        background-color: blue;    
+
+    }
