@@ -1,0 +1,30 @@
+html{
+    margin:0;
+}
+body{
+    margin:0;
+}
+ 
+    ul{
+        margin: 0px;
+        padding:0px;
+        height: 100hv;
+       
+        display: grid;
+        grid-template-columns: repeat(7, 100px); 
+        grid-template-rows: repeat(7, 100px);
+    }
+ 
+
+        li{
+            
+           
+        }
+
+            img{
+                width:100%;
+                height:100%;
+                border-radius: 50%;
+
+            }
+

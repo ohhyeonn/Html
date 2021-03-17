@@ -1,14 +1,19 @@
-
+body{
+    margin:0;
+ 
+}
 html{
     margin : 0px;
+ 
+
 }
 
 
 #grid-container{
-    height:5000px;
+    height:100vh;
     margin:0px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, 100px);
+    grid-template-columns: repeat(12, minmax(100px, 1fr));
     grid-template-rows: repeat(auto-fill, 100px);
 }
 
