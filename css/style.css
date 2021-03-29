@@ -1,86 +1,176 @@
-html{
-    height: 100%;
-}
-
-body {
-    height:100%;
-    margin : 0;
+/* reset들 */
+ul{
+    list-style-type: none;
+    padding: 0px;
 }
 
 
-/* -------------------------------------------------------*/
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ol{
+    list-style-type: none;
+    padding: 0px;
+}
 
 
 
 
 
 
-#header {
-    background-color:white;
-    height: 70px;
+
+
+/*none 들임 */
+.d-none {
+    display: none;
+
+}
+
+
+
+
+
+/* main menu style */
+.main-menu{
+    font-family: "맑은 고딕";
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    display: inline-block;
     
 }
 
-
-
-
-#visual{
-    background-color: #313131;
-    height: 171px;
-    border-top:3px solid #8CBA34;
-    background: #313131 url("../images/bg-visual.png") no-repeat center center;
-}
-
-
-#body{
-    /* background-color: white; */
-    border-top:5px solid #8CBA34;
-    margin-top:1px;
-    flex-grow:1;
+.main-menu>ul {
     display: flex;
+    padding-left: 0px;
 }
 
-#body>.how{
-    display: flex;
-    flex-grow:1;
-    justify-content: center;
+.main-menu>ul>li{
+    padding-left: 24px;
+    background: url("../images/bg-main-menu-vsp.png") no-repeat 12px center;
 }
 
-    .how>#aside{
-        /* background-color:yellow; */
-        
-        flex-basis: 360px;
-    }
+.main-menu>ul>li>a:hover{
+    color: coral;
+}
 
-    .how>main{
-        /* background-color: blue; */
-        flex-basis: 600px;
-    }
+.main-menu>ul>li:first-child    { 
+    padding-left: 0px;
+    background: none;
 
+}
 
 
 
+/* main-member-menu*/
 
-#footer{
-    background-color:#313131;
-    height: 50px;
+.main-member-menu{
+    font-size: 10px;
+    font-weight: bold;
+    color:#979797;
+    padding-left: 9px;
+    display: inline-block;
     
 }
 
+.main-member-menu>ul {
+    display: flex;
+    
+}
 
-.wow{
-    --background-color: blueviolet;
-    width: 960px;
-    min-height: inherit;
-    margin-left: auto;
-    margin-right: auto;
-    height: 100%;
-    opacity:0.7;
+.main-member-menu>ul>li{
+    padding-left: 9px;
+    background: url("../images/bg-member-menu-sp.png") no-repeat 4.5px center;
+}
+
+.main-member-menu>ul>li>a:hover{
+    color: coral;
+}
+
+.main-member-menu>ul>li:first-child    { 
+    padding-left: 0px;
+    background: none;
+
 }
 
 
+/* pager-menu */
 
-#bbody{
+.pager-menu h1 {
+    display: none;
+}
+
+
+.pager-menu{
+    font-size: 10px;
+    font-weight: bold;
+    color: #979797;
+    display: inline-block;
+
+}
+
+.pager-menu > nav{
     display:flex;
-    flex-direction: column;
+    align-items: center;
+   
 }
+
+.pager-menu > nav > div{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.pager-menu>nav>ul{
+    display: flex;
+    justify-content: center;  
+
+}
+.pager-menu > nav > ul > li{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+/* path */
+
+.path h1 {
+    display: none;
+}
+
+.path{
+    font-size: 10px;
+    font-weight: bold;
+    color:#979797;
+    padding-left: 9px;
+    display: inline-block;
+    
+}
+
+.path>ol {
+    display: flex;
+    
+}
+
+
+
+.path>ol>li>a:hover{
+    color: coral;
+}
+
+.path>ol>li{ 
+    padding-left: 10px;
+    background: url("../images/icon-path.png") no-repeat 0px center;
+
+}
+
+.path>ol>li:first-child    { 
+    padding-left: 20px;
+    background: url("../images/icon-home.png") no-repeat 0px center;
+
+}
+
+
+
+

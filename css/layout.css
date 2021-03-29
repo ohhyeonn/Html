@@ -1,0 +1,121 @@
+html,body{
+    height: 100%;
+    margin:0;
+}
+
+/* --------------------------------------------------------------- */
+.float-content{
+    width:960px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    min-height:inherit;
+    opacity: 0.7;    
+    /* height: inherit; */
+
+}
+
+#root{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 250px 750px 1fr;
+    grid-template-rows: 500px 171px 1fr 100px;
+    grid-template-areas: 
+    "header header header header"
+    "visual visual visual visual"
+    "body body body body"
+    "footer footer footer footer";
+}
+
+#header{
+    background-color: white;
+    grid-area: header;
+}
+
+#visual{
+    border-top:3px solid #8CBA34;
+    background:#313131 url("../images/bg-visual.png") no-repeat center;
+    grid-area: visual;
+
+
+}
+
+#body{
+    border-top:5px solid #8CBA34;
+    margin-top: 1px;
+    grid-area: body;
+    display: grid;
+    grid-template-columns: 1fr 250px 750px 1fr;
+    grid-template-areas: ". aside main .";
+
+}
+
+#aside{
+    background-color: blue;
+    grid-area: aside;
+
+}
+
+#main{
+    
+    grid-area: main;
+    background-color: none;
+}
+
+#footer{
+    background-color: #313131;
+    grid-area: footer;
+}
+
+
+/* @media screen and (min-width: 500px){
+
+} */
+
+@media screen and (max-width: 960px){
+    .float-content{
+        width:100%;
+
+    }
+    
+    #root{
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 70px 171px 1fr 100px;
+        grid-template-areas: 
+        "headerr"
+        "visual"
+        "body"
+        "footer";
+    }
+
+    #body{
+
+        border-top:5px solid #8CBA34;
+        margin-top: 1px;
+        grid-template-areas: "body";
+    
+    }
+    #body{
+        border-top:5px solid #8CBA34;
+        margin-top: 1px;
+        grid-area: body;
+        display:block;
+    
+    }
+    
+    #aside{
+        background-color: blue;
+        grid-area: aside;
+        display: none;
+    }
+    
+    #main{
+        
+        height: 100%;
+        background-color: lawngreen;
+    }
+    
+    
+}
