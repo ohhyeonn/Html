@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/board-write-style.css" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+    crossorigin="anonymous"
+  />
+  <link href="../css/common.css" type="text/css" rel="stylesheet">
+   <title>Document</title>
+
+   <script>
+       function resize(obj) {
+         obj.style.height = "1px";
+         obj.style.height = (12+obj.scrollHeight)+"px";
+        }
+   </script>
+</head>
+<body>
+    
+    
+    <header class="d-none">
+
+    </header>
+    
+    
+    
+    
+    
+    
+    <main>
+    
+    
+        <section class="side-nav">
+            <h1 class="d-none" >게시판 목록들</h1>
+            <ul>
+                <li><a href="">자유게시판</a></li>
+                <li><a href="">사는얘기</a></li>
+                <li><a href="">공지사항</a></li>
+                <li><a href="">IT포럼</a></li>
+            </ul>
+        </section>
+        
+        
+        
+        
+        
+        
+        <section class="board-name-write">
+            <h1 class="d-none">게시판 이름과 검색바</h1> 
+            <div><a>게시판이름</a></div>
+            <div></div>
+            <div><a>완료</a></div>
+        </section>
+    
+    
+        <div id="root">
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+            <article class="content">
+                <h1 class="d-none">게시판 목록이 나열</h1>
+                
+
+
+                
+                <section class="content-profile">
+                    <h1 class="d-none">content-profile</h1>
+                    <div class="icon">프로필</div>
+                    <ul>
+                        <li>작성자</li>
+                        <li>03/03 10:12</li>
+                    </ul>
+                
+                </section>
+
+
+
+
+
+                <section class="write-title" >
+                    <h1 class="d-none">제목입력</h1>
+
+                   
+                    <form>
+                        
+                            <input type="text" placeholder="제목을 작성하세요"> 
+                            
+                       
+                    </form>
+                    <div>
+                        <div></div>
+                    </div>
+
+
+
+                </section>
+
+                <section class="write-content">
+                    <h1 class="d-none">write-content</h1>
+                    
+                    <textarea name="" id=""  rows="10" onkeydown="resize(this)" onkeyup="resize(this)" placeholder="내용을 입력하세요"></textarea>
+
+                </section>
+
+                
+            </article>
+
+
+            <section class="board-bottom-nav">
+                <h1 class="d-none">board-bottom-nav</h1>
+                <div><div></div></div>
+                <ul>
+                    <li class="icon">파일첨부</li>
+                    <li class="icon">사진첨부</li>
+                    <li></li>
+                    <li><input type="checkbox">&nbsp;&nbsp;비공개</li>
+                </ul>
+                
+            </section>
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <aside class="side">
+                <h1 class="d-none">notice or hot</h1>
+
+                <section class="gongzi">
+                    <h1 class="d-none" >공지사항</h1>
+                    <ul >
+                        <li><a href="">공지사항</a></li>
+                        <li><a href="">게시판에 낙서 하지마세요</a> <span>작성자 21/03/03</span></li>
+                        <li><a href="">게시판에 낙서 하지마세요</a> <span>작성자 21/03/03</span></li>
+                        <li><a href="">게시판에 낙서 하지마세요</a> <span>작성자 21/03/03</span></li>
+                        <li><a href="">게시판에 낙서 하지마세요</a> <span>작성자 21/03/03</span></li>
+                        <li><a href="">게시판에 낙서 하지마세요</a> <span>작성자 21/03/03</span></li>
+                        <li><a href="">게시판에 낙서 하지마세요</a> <span>작성자 21/03/03</span></li>
+                    </ul>
+
+
+                </section>
+
+
+                <section class="hotnotice">
+                    <h1 class="d-none" >hot notice</h1>
+                    <ul >
+                        <li><a href="">HOT 게시글</a></li>
+                        <li><a href="">이거보세요오오오오!</a> <span>작성자 21/03/03</span></li>
+                        <li><a href="">이거보세요오오오오!</a> <span>작성자 21/03/03</span></li>
+                        <li><a href="">이거보세요오오오오!</a> <span>작성자 21/03/03</span></li>
+                        <li><a href="">이거보세요오오오오!</a> <span>작성자 21/03/03</span></li>
+                        <li><a href="">이거보세요오오오오!</a> <span>작성자 21/03/03</span></li>
+                        <li><a href="">이거보세요오오오오!</a> <span>작성자 21/03/03</span></li>
+                    </ul>
+                </section>
+
+
+
+            </aside>
+
+
+
+
+    
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+        
+
+
+
+    <footer class="d-none">
+
+    </footer>
+
+
+</body>
+</html>

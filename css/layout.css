@@ -10,16 +10,14 @@ html,body{
     margin-right: auto;
     height: 100%;
     min-height:inherit;
-    opacity: 0.7;    
     /* height: inherit; */
-
 }
 
 #root{
     height: 100%;
     display: grid;
     grid-template-columns: 1fr 250px 750px 1fr;
-    grid-template-rows: 500px 171px 1fr 100px;
+    grid-template-rows: 70px 171px 1fr 100px;
     grid-template-areas: 
     "header header header header"
     "visual visual visual visual"
@@ -33,27 +31,35 @@ html,body{
 }
 
 #visual{
-    border-top:3px solid #8CBA34;
+    border-top:3px solid rgb(139,185,53);
     background:#313131 url("../images/bg-visual.png") no-repeat center;
     grid-area: visual;
 
 
 }
+#visual > .float-content {
+    background: url("../images/customer/visual.png") no-repeat center;
+}
 
-#body{
-    border-top:5px solid #8CBA34;
-    margin-top: 1px;
-    grid-area: body;
+#body .float-content{
     display: grid;
-    grid-template-columns: 1fr 250px 750px 1fr;
-    grid-template-areas: ". aside main .";
+    grid-template-columns: 205px 750px;
+    grid-template-areas: "aside main";
+    background: url("../images/bg-body.png") repeat-y center;
 
 }
 
-#aside{
-    background-color: blue;
-    grid-area: aside;
+#body{
+    grid-area: body;
+    border-top:5px solid rgb(139,185,53);
+    margin-top: 1px;
+    
+}
 
+#aside{
+    grid-area: aside;
+    background: url("../images/bg-aside-title.png" ) no-repeat;
+    
 }
 
 #main{
@@ -71,7 +77,7 @@ html,body{
 /* @media screen and (min-width: 500px){
 
 } */
-
+/* 
 @media screen and (max-width: 960px){
     .float-content{
         width:100%;
@@ -118,4 +124,4 @@ html,body{
     }
     
     
-}
+} */
