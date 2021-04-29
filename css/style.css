@@ -492,7 +492,11 @@ a {
 
 
 
+/* board search form */
 
+.board-search-form {
+    
+}
 
 
 
@@ -503,6 +507,19 @@ a {
 
 
 /* path */
+
+
+
+#main {
+    position: relative;
+
+}
+
+.path{
+   position: absolute;
+   right: 0px;
+
+}
 
 .path h1 {
     display: none;

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+	<script src="ex1.js" ></script>
+</head>
+<body>
+	<section id="ex10">
+		<style>
+
+        </style>
+		<h1>아작수</h1>
+		<div class="">
+			<input class="btn-request" type="button" value="request">
+		</div>
+	
+
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section id="ex9">
+		<style>
+			#ex9 .upload-box{
+				width:500px;
+				height: 300px;
+				border: 1px solid gray;
+				box-shadow: 2px 3px 9px hsl(0,0%,47%);
+				padding: 10px;
+			}
+        </style>
+		<h1>파일업로드 : DND (드래그엔드랍)& Trigger</h1>
+		<div class="upload-box">
+			<div class="item">
+				<button class="btn-sel">파일선택</button>
+				<input class="d-none btn-file" type="file">
+			</div>
+		
+			
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section id="ex8">
+		<style>
+			#ex8 .product{
+				box-shadow: 2px 3px 9px black;	
+				padding:10px;
+			}
+
+			#ex8 .item{
+				height: 30px;
+			}
+
+			.product > .item {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+
+			#ex8 .selected {
+				border : 1px dotted #000;
+			}
+
+			
+
+        </style>
+		<h1>상품 목록 관리하기 : 노드순회</h1>
+		<div class="product">
+			<div class="item">
+				<span>상품명</span>
+				<input class="text" type="text" value="0">
+				<button class="up">위</button>
+				<button class="down">아래</button>
+				<button class="current">선택</button>
+			</div>
+			<div class="item">
+				<span>상품명</span>
+				<input class="text" type="text" value="0">
+				<button class="up">위</button>
+				<button class="down">아래</button>
+				<button class="current">선택</button>
+			</div>
+			<div class="item">
+				<span>상품명</span>
+				<input class="text" type="text" value="0">
+				<button class="up">위</button>
+				<button class="down">아래</button>
+				<button class="current">선택</button>
+			</div>
+			<div class="item">
+				<span>상품명</span>
+				<input class="text" type="text" value="0">
+				<button class="up">위</button>
+				<button class="down">아래</button>
+				<button class="current">선택</button>
+			</div>
+			
+		</div>
+	</section>
+
+
+
+
+
+
+	<hr>
+
+
+	<section id="ex7">
+		<style>
+			.d-none {
+				display: none;
+			}
+           #ex7 .item > div:first-child{
+				border : 1px solid #e9e9e9;
+				padding: 5px 10px;
+				font-weight: bold;
+		   }
+		   #ex7 .item > div:last-child{
+			   min-height: 100px;
+			   border-right: 1px solid #e9e9e9;
+			   border-bottom: 1px solid #e9e9e9;
+			   border-left: 1px solid #e9e9e9;
+		   }
+        </style>
+		<h1>아코디언예제 : 노드 순회</h1>
+		<div class="accordion">
+			<div class="item">
+				<div class="title">title1</div>
+				<div class="content d-none">content1</div>
+			</div>
+			<div class="item">
+				<div class="title">title1</div>
+				<div class="content d-none">content1</div>
+			</div>
+			<div class="item">
+				<div class="title">title1</div>
+				<div class="content d-none">content1</div>
+			</div>
+			<div class="item">
+				<div class="title">title1</div>
+				<div class="content d-none">content1</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+	<section id="ex6">
+		<style>
+            #ex6 .container{
+                width:500px;
+                height: 300px;
+                background-color: gray;
+				
+				display: flex;
+            }
+            #ex6 .box{
+                width:100px;
+                height: 100px;
+                background-color: blue;
+                color:#fff;
+                font-size: 30px;
+                font-weight: bold;
+                text-align: center;
+                line-height: 100px;
+                border-radius: 50px;
+ 
+            }
+
+
+			#ex6 .selected {
+				border: 1px red solid;
+				width:98px;
+				height:98px;
+			}
+
+
+        </style>
+		<h1>event burbling과 target</h1>
+		<h2>앞의 예제에서 삭제를 한다? 클릭한선택한원을 삭제하세요</h2>
+		<div>
+			<input class="btn btn-del" type="button" value="삭제">
+			<input class="btn btn-dup" type="button" value="복제">
+			<input class="btn btn-cha" type="button" value="바꿈">
+		</div>
+		<div class="container">
+			<div class="box">1</div>
+			<div class="box">2</div>
+			<div class="box">3</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section id="ex5">
+		<h1>노드 조작하기</h1>
+		<div>
+			<label>식별자</label><input class="id-input" type="text">
+			<label>색상</label><input class="color-input" type="text">
+			<input class="btn btn-add" type="button" value="추가">
+			<input class="btn btn-del" type="button" value="삭제">
+			<input class="btn btn-dup" type="button" value="복제">
+			<input class="btn btn-cha" type="button" value="바꿈">
+
+		</div>
+
+		<div class="container">
+
+		</div>
+	</section>
+
+	<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+	<style>
+		#ex4 .container{
+			position: relative;
+			width: 500px;
+			height: 300px;
+			background-color: gray;
+		}
+		#ex4 .box {
+			width: 100px;
+			height: 100px;
+			background-color: blue;
+			color: #fff;
+			font-size: 30px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 100px;
+			border-radius: 50px;
+			position: absolute;
+			left: 0px;
+			top:0px;
+		}
+		#ex4 .box1{
+			left: 40px;
+		}
+
+		#ex4 .box2{
+			background-color: purple;
+		}
+	</style>
+
+	<section id="ex4">
+		<h1>css 속성 디자인</h1>
+		<div>
+			<input type="button" value="click">
+		</div>
+		<div class="container">	
+			<div class="box1 box">1</div>
+			<div class="box2 box">2</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+	<style>
+		#ex3 .btn {
+			border: 1px solid gray;
+			border-radius: 5px;
+			padding: 5px 10px;
+			cursor: pointer;
+			transition: 250ms;
+
+		}
+		#ex3 .btn:hover{
+			background-color: plum;
+			color: white;
+
+			
+		}
+		#ex3 .btn:active{
+			background-color: purple;
+
+		}
+
+		#ex3 .span{
+			color: red;
+			font-weight: bold;
+		}
+
+	</style>
+	
+	<section id="ex3">
+		<h1>카운트다운</h1>
+		<div>	
+			<div>
+				<label>남은시간</label>
+				<span class="span" >60</span>		
+				<span class="btn ">카운트다운</span>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+	<section id="ex2">
+		<h1>계산기</h1>
+		<div>	
+			<div>
+				<input class ="text" type="text" name="x"> + <input class ="text"  type="text" name="y"> <br>
+				<input class="button" type = "submit" value="덧셈" ><span></span>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<section id="ex1">
+		<h1>계산기</h1>
+		<div>	
+			<div>
+				<input type="text" name="x"> + <input type="text" name="y"> <br>
+				<input class="button" type = "submit" value="덧셈" ><span></span>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+</body>
+</html>
+
